@@ -1,8 +1,9 @@
 #include<iostream>
 using namespace std;
+public:
 class EmployeeAbstract{
     virtual void AskPromotion()=0;
-
+    virtual void Print()=0;
 };
 
 class Manager: public EmployeeAbstract{
@@ -49,6 +50,9 @@ Manager(int empno,string name,int age,string department){
 void AskPromotion(){
    cout<<"Currently On Hold Wait For Annual Results"<< endl;
 
+}
+void print(){
+    cout<<"The Example For The Abstraction In:"<< endl;
 }
  void intro(){
         cout << "Emp No :"<<getempno()<<endl;
