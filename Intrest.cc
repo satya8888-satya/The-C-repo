@@ -19,5 +19,6 @@ using namespace std;
 }
 int main(){
     intrest();
-    return 0;
+    return 100;
+
 }

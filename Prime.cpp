@@ -6,7 +6,7 @@ int prime(){
     int factor;
     cout<<"Enter a Number:";
     cin>>x;
-    for(int i=2;i<=x;i++){
+    for(int i=2;i<=x/2;i++){
         if(x%i==0){
             factor++;
     }
@@ -17,8 +17,10 @@ int prime(){
     else{
         cout<<"The Given Number Is A Prime Number :"<< endl;
 }
-return 0; // Return Statement
+    return 0; // Return Statement
 }
+
+
 int main(){
     //Calling The Prime Number Validation Function  
     prime();

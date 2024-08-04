@@ -1,17 +1,18 @@
 #include<iostream>
+
 using namespace std;
+
 class satya{
     public:
-    int add(int x ,int y ){
-        int x = 100;
-        int y = 200;
+    int multiply(int x ,int y ){
+    
         int z =x*y;
-        cout<<"The Product Of The Above Numbers Are"
+        cout<<"The Product Of The Above Numbers Are"<< z;
         return z;
     
     }
 };
 int main(){
 satya s ;
-s.add();
+s.multiply(200,500);
 }

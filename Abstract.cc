@@ -1,6 +1,6 @@
-https://www.jetbrains.com/guide/java/tutorials/marco-codes-spring-boot/downloading-images/#include<iostream>
+#include<iostream>
 using namespace std;
-public:
+
 class EmployeeAbstract{
     virtual void AskPromotion()=0;
     virtual void Print()=0;

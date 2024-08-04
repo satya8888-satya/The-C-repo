@@ -39,7 +39,8 @@ class Student{
     }
 
 };
-class Devloper:Student{
+
+
     string favProgramming_language;
     public:
     Devloper(int Rollno,string Name,int Age ,string favProgramming_language)

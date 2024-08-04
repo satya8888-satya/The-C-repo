@@ -5,5 +5,6 @@ int main(){
         cout<<"The Integers Are :"<< i << endl;
     }
     cout<<"Hello World\n";
+    cout<<"The Lord Sri Krsihna :"<<"The Warrior Krishna"<< endl;
     return 0;
 }
